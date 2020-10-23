@@ -11,6 +11,11 @@ We hotfix that with cronjob for now: Add CRONFIX=1
 Check yourself if you need that. It only allows 1:1 port mappings
 
 # Usage:
+```
 docker_ufw_setup=https://gist.githubusercontent.com/rubot/418ecbcef49425339528233b24654a7d/raw/docker_ufw_setup.sh
 DEBUG=1 CRONFIX=1 bash <(curl -SsL $docker_ufw_setup)
+```
+
+```
 RESET=1 bash <(curl -SsL $docker_ufw_setup)
+```
